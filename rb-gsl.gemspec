@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
   s.add_dependency('narray', '>= 0.5.9')
   
   s.files = Dir['README.rdoc', 'VERSION', 'Rakefile', 'ext/*', 'lib/**/*', 'include/*']
-  s.require_paths = ['lib', 'lib/gsl', 'lib/ool', 'ext']
+  s.require_paths = ['lib', 'lib/ool', 'ext']
   s.extensions = %w[ ext/extconf.rb ]
 end
